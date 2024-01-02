@@ -638,8 +638,8 @@ x-instructions:before {
     content: attr(mobile);
 }
 
-x-peers:empty~x-instructions {
-    opacity: 0;
+x-peers:empty~x-instructions:before {
+    content: attr(notconnected);
 }
 
 

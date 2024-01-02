@@ -1,4 +1,16 @@
-# node-snapdrop [![CodeQL](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Bellisario/node-snapdrop/actions/workflows/codeql-analysis.yml)
+# node-snapdrop
+
+This is a copy of [node-snapdrop](https://github.com/Bellisario/node-snapdrop) (by [Bellisario](https://github.com/Bellisario)), which is just the original Snapdrop, but with a complete Node.js server.
+
+## Why this fork?
+
+This fork of node-snapdrop has been created to:
+
+- Translate the Snapdrop UI to German.
+- Add a QR code to the UI
+- Host an own Snapdrop server at [drop.rafaelurben.ch](https://drop.rafaelurben.ch).
+
+## Original README
 
 Just the original Snapdrop, with complete Node.js server.
 
@@ -12,7 +24,7 @@ Just the original Snapdrop, with complete Node.js server.
 To get started, clone and cd the repo:
 
 ```bash
-git clone https://github.com/Bellisario/node-snapdrop.git && cd node-snapdrop
+git clone https://github.com/rafaelurben/node-snapdrop.git && cd node-snapdrop
 ```
 
 Install all dependencies with NPM:
